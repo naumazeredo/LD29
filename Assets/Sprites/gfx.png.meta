@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: 2eb07974b79ab6841a3fadb3567779c3
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: building
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 1
+      pivot: {x: 0, y: 1}
+    - name: cop
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 485
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: person_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 485
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: shadow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 171
+        height: 171
+      alignment: 1
+      pivot: {x: 0, y: 1}
+    - name: person_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 451
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: person_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 452
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_tl
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_t1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_t2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_tr
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_l1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_l2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_lb
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_b1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_b2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_br
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_r2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sidewalk_r1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bullet
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 506
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: dead_cop
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 419
+        width: 28
+        height: 60
+      alignment: 9
+      pivot: {x: .441922337, y: .0940485671}
+    - name: blood_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 436
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: .628572762, y: .822221518}
+    - name: blood_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 431
+        width: 9
+        height: 14
+      alignment: 9
+      pivot: {x: .495722443, y: .889755249}
+    - name: blood_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 422
+        width: 10
+        height: 22
+      alignment: 2
+      pivot: {x: .5, y: 1}
+    - name: blood_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 418
+        width: 12
+        height: 23
+      alignment: 9
+      pivot: {x: .5, y: 1.13478291}
+    - name: blood_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 383
+        width: 14
+        height: 25
+      alignment: 9
+      pivot: {x: .494427264, y: 1.15837038}
+    - name: blood_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 382
+        width: 15
+        height: 16
+      alignment: 9
+      pivot: {x: .459355682, y: 1.79023552}
+    - name: blood_6
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 381
+        width: 12
+        height: 15
+      alignment: 9
+      pivot: {x: .509311676, y: 2.06891084}
+    - name: blood_7
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 382
+        width: 12
+        height: 16
+      alignment: 9
+      pivot: {x: .47273764, y: 1.82026863}
+    - name: dead_person_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 320
+        width: 29
+        height: 58
+      alignment: 9
+      pivot: {x: .483183771, y: .0627820268}
+    - name: dead_person_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 316
+        width: 29
+        height: 62
+      alignment: 9
+      pivot: {x: .446003884, y: .128369734}
+    - name: dead_person_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 253
+        width: 28
+        height: 58
+      alignment: 9
+      pivot: {x: .456754953, y: .161796838}
+    - name: werewolf_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 286
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: werewolf_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 253
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: werewolf_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 221
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tail_0
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 222
+        width: 10
+        height: 25
+      alignment: 9
+      pivot: {x: .314534009, y: .982211292}
+    - name: tail_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 192
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: .140423372, y: 1}
+    - name: tail_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 192
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: .193651199, y: 1}
+    - name: tail_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 157
+        width: 10
+        height: 25
+      alignment: 9
+      pivot: {x: .706611633, y: 1}
+    - name: tail_4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 159
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: .855929792, y: 1}
+    - name: tail_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 130
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: .826630592, y: 1}
+    - name: wall_tl
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 9
+        height: 9
+      alignment: 8
+      pivot: {x: 1, y: 0}
+    - name: wall_t
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 185
+        width: 15
+        height: 9
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: wall_tr
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 185
+        width: 9
+        height: 9
+      alignment: 6
+      pivot: {x: 0, y: 0}
+    - name: wall_l
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 9
+        height: 17
+      alignment: 5
+      pivot: {x: 1, y: .5}
+    - name: wall_bl
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 9
+        height: 8
+      alignment: 3
+      pivot: {x: 1, y: 1}
+    - name: wall_b
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 160
+        width: 15
+        height: 8
+      alignment: 2
+      pivot: {x: .5, y: 1}
+    - name: wall_r
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 168
+        width: 9
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: wall_br
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 160
+        width: 9
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+    - name: objective
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 164
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: arrow
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 141
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: text_go
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 40
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: text_home
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 6
+        width: 79
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: claw_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 170
+        width: 14
+        height: 17
+      alignment: 9
+      pivot: {x: .166737691, y: .31703186}
+    - name: claw_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 168
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: .327197611, y: .359678566}
+    - name: claw_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 136
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: .38224411, y: .43027696}
+    - name: claw_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 133
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: .419240862, y: .523248851}
+    - name: claw_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 133
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: .43611297, y: .576886952}
+    - name: you_died
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 70
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
