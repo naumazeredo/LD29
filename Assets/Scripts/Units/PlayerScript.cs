@@ -35,6 +35,12 @@ public class PlayerScript : MonoBehaviour
 
   void Update()
   {
+    if (HUDScript.endGame)
+    {
+      rigidbody2D.velocity = new Vector2();
+      return;
+    }
+
     // Controls
     int h = (rebind.GetKey("Right") ? 1 : 0) + (rebind.GetKey("Left") ? -1 : 0);
     int v = (rebind.GetKey("Up") ? 1 : 0) + (rebind.GetKey("Down") ? -1 : 0);

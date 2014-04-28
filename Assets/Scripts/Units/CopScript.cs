@@ -52,6 +52,12 @@ public class CopScript : MonoBehaviour
 
   void Update()
   {
+    if (HUDScript.endGame)
+    {
+      rigidbody2D.velocity = new Vector2();
+      return;
+    }
+
     Vector2 deltaPos = Utils.V3toV2(player.transform.position - transform.position);
 
     // Check if the cops see the player
@@ -80,7 +86,6 @@ public class CopScript : MonoBehaviour
         shootTimer.Reset();
       }
     }
-
 
     // Chasing
     if (state == CopState.Chasing)

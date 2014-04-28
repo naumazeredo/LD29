@@ -45,6 +45,12 @@ public class PersonScript : MonoBehaviour
 
   void Update()
   {
+    if (HUDScript.endGame)
+    {
+      rigidbody2D.velocity = new Vector2();
+      return;
+    }
+
     Vector2 deltaPos = Utils.V3toV2(player.transform.position - transform.position);
 
     // Check if the person wants to run away
